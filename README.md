@@ -39,7 +39,7 @@ Scraping LinkedIn violates their [User Agreement](https://www.linkedin.com/legal
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/li-people-scraper.git
+git clone https://github.com/k3njji/linkedin-employee-scraper.git
 cd li-people-scraper
 
 python -m venv venv
