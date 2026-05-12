@@ -74,7 +74,7 @@ Open `linkedin_scraper.py` and fill in the config block at the top:
 
 ```python
 LI_AT_TOKEN = "your_li_at_cookie_value"
-COMPANY_URL  = "https://www.linkedin.com/company/anthropic/"
+COMPANY_URL  = "https://www.linkedin.com/company/anthropic/people"
 OUTPUT_CSV   = "output.csv"
 OUTPUT_XLSX  = "output.xlsx"
 HEADLESS     = False   # True for background/pipeline runs
@@ -106,7 +106,7 @@ Both files contain the same three columns:
 inject li_at cookie
         │
         ▼
-load /people/ page
+load employee/people/ page
         │
         ▼
 click "Show more results" (loop until exhausted)
